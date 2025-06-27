@@ -1,6 +1,6 @@
 {
-  "name": "VISPER MD",
-  "version": "2.0.0",
+  "name": "VISPER-MD",
+  "version": "3.0.0",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name Visper",
     "stop": "pm2 stop Visper",
@@ -11,7 +11,7 @@
     "@adiwajshing/keyed-db": "latest",
     "@ffmpeg-installer/ffmpeg": "latest",
     "axios": "latest",
-    "darksadas-new-baliyes": "npm:sadas-baileys-pro",
+      "@whiskeysockets/baileys": "npm:dcm-baileys-pro",
     "buffer": "latest",
      "translate-google-api": "latest",
      "javascript-obfuscator": "latest",
@@ -45,7 +45,7 @@
     "sadasytsearch": "latest",
     "seedr": "latest",
     "sequelize": "latest",
-     "sharp": "^0.32.6",
+   "sharp": "^0.34.1",
     "wa-sticker-formatter": "^4.3.2",
     "ytsearch-venom": "latest"
   }
