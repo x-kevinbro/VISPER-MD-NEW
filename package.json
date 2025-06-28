@@ -15,7 +15,8 @@
     "buffer": "latest",
      "translate-google-api": "latest",
      "javascript-obfuscator": "latest",
-    "cheerio": "latest",
+    "cheerio": "1.0.0-rc.12",
+    "css-select": "4.1.0",
     "darksadasyt-anime": "latest",
     "darksadasyt-imgbb-scraper": "latest",
     "express": "latest",
@@ -48,5 +49,8 @@
    "sharp": "^0.34.1",
     "wa-sticker-formatter": "^4.3.2",
     "ytsearch-venom": "latest"
+  },
+  "overrides": {
+    "css-select": "4.1.0"
   }
 }
